@@ -106,6 +106,7 @@ while running:
         axis_x = joystick.get_axis(0)
         axis_y = joystick.get_axis(1)
 
+
         # Spieler bewegen
         players[i][0][0] += int(axis_x * 5)
         players[i][0][1] += int(axis_y * 5)
